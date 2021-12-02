@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+}
+
+.header{
+    font-family: sans-serif;
+}
+
+.header .title{
+    font-size: 3em;
+    text-align: center;
+    width: 600px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    padding: 2px;
+    margin-top: 5px;
+    margin-left: 5px;
+    
+}
+
+.header .description{
+    font-size: 1.5em;
+    font-style: italic;
+    width: 400px;
+    border: 1px hidden;
+    padding: 1px;
+    margin: 15px;
+    margin-bottom: 30px;
+}
+
+.recipes ul{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+}
+
+.recipes li{
+    font-size: 1.5em;
+    list-style-type: none;
+
+}
+
+.recipes img{
+    width:300px;
+    border-radius: 50%;
+    float: left;
+    border: 2px solid black;
+    padding: 0px;
+    margin: 20px;
+    transition: all 0.5s;
+}
+
+.recipes img:hover{
+    transform: scale(1.1);
+}
+
+
