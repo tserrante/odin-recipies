@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.container > img{
+    width: 500px;
+    height: 400px;
+}
+
+.container > p{
+    font-size: larger;
+    width:400px;
+    text-align: left;
+}
+
+h3{
+    width:200px;
+    border-bottom: 2px solid red;
+    border-right: 2px solid red;
+}
