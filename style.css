@@ -47,13 +47,14 @@ body{
 
 .list-elem{
     vertical-align: top;
-    display: inline-block;
+    display: flex;
     text-align: center;
     width: 400px;
 }
 
 .list-elem img{
     width:300px;
+    height:200px;
     border-radius: 50%;
     border: 2px solid black;
     padding: 0px;
