@@ -38,36 +38,25 @@ body{
     margin-bottom: 10px;
 }
 
-
-
-.recipes li{
+div.recipe{
     font-size: 1.5em;
-    list-style-type: none;
-}
-
-.list-elem{
     vertical-align: top;
-    display: flex;
+    display: inline-block;
     text-align: center;
     width: 400px;
-    height:300px;
 }
 
-.list-elem img{
-    box-sizing: border-box;
-    width:350px;
-    height:250px;
-    border: 2px solid black;
-    padding: 0px;
+div.recipe img{
+    width:300px;
+    height:200px;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    background-color: antiquewhite;
     margin: 20px;
     transition: all 0.5s;
 }
 
-.list-elem a{
-    display: block;
-}
-
-.recipes img:hover{
+div.recipe img:hover{
     transform: scale(1.1);
 }
 
