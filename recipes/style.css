@@ -5,12 +5,12 @@
     margin: 5px;
     float: right;
 }
-.links li{
+.navigation li{
     display: inline-block;
     
 }
 
-.links .button{
+.navigation .button{
     text-decoration: none;
     margin:5px;
     padding: 10px 20px;
