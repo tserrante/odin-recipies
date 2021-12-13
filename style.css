@@ -2,9 +2,10 @@
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
+    
   }
 
-body{
+  body{
     margin: 0px;
 }
 
@@ -54,7 +55,6 @@ body{
 }
 .navigation li{
     display: inline-block;
-    
 }
 
 .navigation .button{
@@ -73,13 +73,13 @@ body{
 }
 
 
-
 div.recipe{
     font-size: 1.5em;
     vertical-align: top;
     display: inline-block;
     text-align: center;
-    width: 400px;
+    max-width: 400px;
+    margin: 50px;
 }
 
 div.recipe img{
@@ -88,9 +88,7 @@ div.recipe img{
     border: 2px solid rgba(0, 0, 0, 0.15);
     padding: 10px;
     background-color: antiquewhite;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    
     transition: all 0.5s;
 }
 
@@ -98,9 +96,17 @@ div.recipe img:hover{
     transform: scale(1.1);
 }
 
+div.recipe a{
+    border: 0 hidden;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
 div.recipe a:link{
     color: blue;
     text-decoration: none;
+    
 }
 
 div.recipe a:visited{
