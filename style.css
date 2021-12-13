@@ -1,3 +1,9 @@
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
 body{
     margin: 0px;
 }
@@ -62,7 +68,8 @@ body{
     background-color: white;
 }
 .button:hover{
-    background-color: wheat;
+    background-color: antiquewhite;
+    border-color: black;
 }
 
 
@@ -81,7 +88,9 @@ div.recipe img{
     border: 2px solid rgba(0, 0, 0, 0.15);
     padding: 10px;
     background-color: antiquewhite;
-    margin: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     transition: all 0.5s;
 }
 
