@@ -80,7 +80,11 @@ div.recipe{
     display: inline-block;
     text-align: center;
     max-width: 400px;
-    margin: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 110px;
+    margin-right: 110px;
+    
 }
 
 div.recipe img{
