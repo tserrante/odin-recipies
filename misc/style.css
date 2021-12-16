@@ -1,5 +1,60 @@
-.container{
+/*For nav Bar*/
+
+.container {
     border: 5px solid #ffcc5c;
     display: flex;
 }
 
+@media all and (min-width:800px) {
+    .container {
+        justify-content: flex-end;
+    }
+    .container>li {
+        flex: 1 1 1px;
+        margin-left: auto;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .container {
+        flex-wrap: wrap;
+    }
+    .container>li {
+        flex: 1 1 50%;
+    }
+    .search>input {
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .container>li {
+        flex: 1 1 100%;
+    }
+    .search {
+        order: 1;
+    }
+}
+
+
+/* For Photo Gallery */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery>div>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery>.normal {
+    flex: 1 1 150px;
+}
+
+.gallery>.big {
+    flex: 1 1 350px;
+}
