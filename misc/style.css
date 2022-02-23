@@ -5,6 +5,15 @@
     display: flex;
 }
 
+.container>.home>a {
+    text-decoration: none;
+    color: #ffeead;
+}
+
+.container>.home>a:visited {
+    text-decoration: none;
+}
+
 @media all and (min-width:800px) {
     .container {
         justify-content: flex-end;
